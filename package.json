@@ -1,0 +1,28 @@
+{
+  "name": "bobaleaderboard",
+  "version": "1.0.0",
+  "description": "Boba Shop customer tracker",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "install-all": "cd client && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alivang15/BobaLeaderBoard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alivang15/BobaLeaderBoard/issues"
+  },
+  "homepage": "https://github.com/alivang15/BobaLeaderBoard#readme"
+}
